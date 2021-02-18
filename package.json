@@ -1,6 +1,6 @@
 {
   "homepage": "https://preduh.github.io/nowFinance",
-  "name": "finance-manager",
+  "name": "nowFinance",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
