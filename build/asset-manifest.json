@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/now-finance/static/js/main.555d9690.chunk.js",
+    "main.js.map": "/now-finance/static/js/main.555d9690.chunk.js.map",
+    "runtime-main.js": "/now-finance/static/js/runtime-main.be3880ac.js",
+    "runtime-main.js.map": "/now-finance/static/js/runtime-main.be3880ac.js.map",
+    "static/js/2.3d9339e2.chunk.js": "/now-finance/static/js/2.3d9339e2.chunk.js",
+    "static/js/2.3d9339e2.chunk.js.map": "/now-finance/static/js/2.3d9339e2.chunk.js.map",
+    "index.html": "/now-finance/index.html",
+    "static/js/2.3d9339e2.chunk.js.LICENSE.txt": "/now-finance/static/js/2.3d9339e2.chunk.js.LICENSE.txt",
+    "static/media/Entradas.023c061e.svg": "/now-finance/static/media/Entradas.023c061e.svg",
+    "static/media/Logo.607ab0cf.svg": "/now-finance/static/media/Logo.607ab0cf.svg",
+    "static/media/Saidas.466248df.svg": "/now-finance/static/media/Saidas.466248df.svg",
+    "static/media/Total.e6a4e09f.svg": "/now-finance/static/media/Total.e6a4e09f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be3880ac.js",
+    "static/js/2.3d9339e2.chunk.js",
+    "static/js/main.555d9690.chunk.js"
+  ]
+}
