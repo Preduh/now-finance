@@ -11,7 +11,7 @@ const TransactionRegister = ({ userId }) => {
     const price = document.getElementsByClassName("registerInput")[1].value;
 
     await api.post(
-      "http://localhost:8081/transaction/create",
+      "transaction/create",
       {
         userId,
         transaction: [
@@ -26,9 +26,9 @@ const TransactionRegister = ({ userId }) => {
 
   return (
     <Container>
-      <form>
-        <input type="text" className="registerInput" />
-        <input type="text" className="registerInput" />
+      <form className="transactions-register-form">
+        <input type="text" className="registerInput" placeholder="Nome da transação" />
+        <input type="text" className="registerInput" placeholder="Valor" />
         <button type="button" onClick={createTransaction}>
           Criar finança
         </button>
