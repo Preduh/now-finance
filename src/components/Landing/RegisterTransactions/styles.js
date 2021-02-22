@@ -46,4 +46,8 @@ export const Container = styled.div`
     .transactions-register-form input::-webkit-input-placeholder {
         color: #8F85B5;
     }
+
+    .registerInput::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
 `
