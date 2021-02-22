@@ -9,10 +9,6 @@ const TransactionRegister = ({ userId }) => {
     let title = document.getElementsByClassName("registerInput")[0].value;
     const price = document.getElementsByClassName("registerInput")[1].value;
 
-    if (title.length > 20) {
-      title = `${title.slice(0, 19)}...`
-    }
-
     if (price !== "") {
       await api.post("transaction/create", {
         userId,
